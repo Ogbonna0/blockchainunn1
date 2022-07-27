@@ -1,0 +1,59 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card{
+    display: block;
+    background:  hsl(216, 50%, 16%);
+    width: 310px !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    margin-top: 70px;
+    border-radius: 15px;
+    color:  hsl(215, 51%, 70%);
+}
+#nftimg{
+    border-radius: 10px;
+    width: 100%;
+}
+#txt{
+    color: white;
+}
+.card-details{
+    display: flex;
+    justify-content: space-between;
+}
+.time, .price{
+    display: flex !important ;
+    align-items: center;
+}
+.price{
+    color: hsl(178, 100%, 50%);
+    font-weight: bold;
+}
+#time-icon{
+    width: 18px;
+    height: 18px;
+}
+#eth-ico{
+    width: 12px;
+    height: 18px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+}
+#avatar{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+#eth-ico, #time-icon, #avatar{
+    margin-right: 10px;
+}
+#jul{
+    color: white;
+    font-weight: bold;
+}
